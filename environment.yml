@@ -1,0 +1,17 @@
+name: gutenberg-poetic
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit
+  - python=3.8
+  - pytorch
+  - pytorch-lightning>1.2
+  - transformers
+  - tokenizers
+  - jupyterlab
+  - jsonlines
+  - scikit-learn
+  - pandas
+  - matplotlib
